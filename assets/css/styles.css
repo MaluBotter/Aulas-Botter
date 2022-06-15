@@ -4,6 +4,7 @@
   --yellow-color: #d8a900;
   --red-color: #dc143c;
   --black-color: #000000;
+  --gray-color: rgba(99, 96, 96, 0.8);
 }
 
 *{
@@ -127,10 +128,13 @@ a {
 }
 
 .home-body {
-  padding: 70px 30px;
+  padding: 70px 30px 0px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.home-vh {
   min-height: 100vh;
 }
 
@@ -141,6 +145,18 @@ a {
 
 .home-text h2 {
   padding-bottom: 20px;
+}
+
+.home-text2 {
+  margin: 30px auto;
+  padding: 12px 20px;
+  text-align: center;
+  background-color: var(--gray-color);
+  border-radius: 10px;
+}
+
+.home-text2 :nth-child(1) {
+  padding-bottom: 15px;
 }
 
 .home-image img {
